@@ -1,0 +1,6 @@
+"No, Thank you." -> Type "Hi" -> Select department.
+"No, Thank you." -> Type a query directly.
+HR query -> "👎 Not Helpful" -> See HR fallback and Keka links.
+IT query -> "👎 Not Helpful" -> Escalation -> Enter email -> See "Thanks! IT Ticket..." -> Click "Ask another IT question" -> Type new IT query (should not be "OutOfScope").
+Topic Mismatch -> "No, stay with..." -> Get answer -> "👍 Helpful" -> Options should not include "Switch to...".
+HR Fallback -> "Rephrase my HR question" -> Type new HR query.
